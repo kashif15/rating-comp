@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+body{
+	background-color: #141519;
+	font-family: "Overpass", sans-serif;
+}
+
+.card{
+	    background-color: #19202a;
+	    color: #fff;
+}
+
+.container{
+	height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+	  
+    width: 25%;
+    padding: 3%;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5%;
+}
+
+.card_img{
+	width: 4%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 4%;
+    background-color: #252d37;
+    border-radius: 50%;
+}
+
+.card ul{
+	list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.card h1{
+	font-size: 1.5rem;
+}
+
+.card p{
+	color: #959eac;
+    font-size: 0.8rem;
+    padding-right: 40px;
+    line-height: 1.5rem;
+}
+
+.card li{
+	    width: 10%;
+    /* height: 20px; */
+    padding: 4%;
+    /* font-size: 1.2rem; */
+    border-radius: 50%;
+    /* line-height: 1.5rem; */
+    background-color: #252d37;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    margin-right: 8%;
+    cursor: pointer;
+}
+
+.card li:hover {
+  background-color: #959eac;
+}
+
+
+.card .list__change {
+  background-color: #fb7413;
+}
+
+.card button{
+	height: 40px;
+    border-radius: 2rem;
+    background-color: #fb7413;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #fff;
+}
+
+.success{
+	width: 25%;
+    padding: 3%;
+    flex-direction: column;
+    display: flex;
+    border-radius: 5%;
+    background-color: #19202a;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+
+.success__value{
+	    color: #fb7413;
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background-color: #252d37;
+    font-weight: 700;
+}
+
+.success h1{
+	    font-size: 1.5rem;
+}
+
+.success__botton{
+	font-size: 0.8rem;
+    color: #959eac;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5rem;
+}
